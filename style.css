@@ -1,13 +1,13 @@
 body {
    background-color: #FFFAA0; 
-   font-family: "Segoe Print", "Bradley Hand", cursive;
+   font-family: "Comic Sans MS", "Chalkboard SE", cursive, sans-serif;
    color: #FFD1DC;
 }
 .kartu-profil {
    width: 300px;
   margin: 50px;
   padding: 20px;
-  background-color: #FFE8F1;
+  background-color: #D198B7;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0,1);
   text-align: center; 
