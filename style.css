@@ -1,20 +1,24 @@
+/* Pengaturan tampilan dasar untuk seluruh halaman */
 body {
    background-color: #FFFAA0; 
    font-family: "Comic Sans MS", "Chalkboard SE", cursive, sans-serif;
-   color: #4D5D53;
+   color: #4A3B32;
 }
+
+/* Pengaturan kotak kartu profil */
 .kartu-profil {
-   width: 300px;
-  margin: 50px;
+  width: 300px;
+  margin: 50px auto; /* Mengatur posisi agar rapi di tengah */
   padding: 20px;
-  background-color: #D198B7;
+  background-color: #FFB37E;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  /* Memperbaiki nilai rgba pada bayangan agar tidak error */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center; 
 }
 
+/* Pengaturan foto profil agar berbentuk lingkaran */
 .kartu-profil img {
   width: 150px;
   border-radius: 50%;
 }
-
